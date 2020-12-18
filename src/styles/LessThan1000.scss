@@ -1,0 +1,22 @@
+.lessthan1000-container {
+  margin: 20px 10px;
+  .inner-container {
+    padding: 5px 20px;
+    .action-button {
+      margin: 10px 0;
+    }
+    .results {
+      .line1 {
+        margin-bottom: 10px;
+        .flag {
+          font-weight: bold;
+        }
+      }
+      .line2 {
+        .total {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

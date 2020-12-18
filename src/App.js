@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import LessThan1000 from './components/LessThan1000'
+import FilterRepeatingCharStrings from './components/FilterRepeatingCharStrings'
+import NavBar from './components/NavBar'
 import './App.css';
+import Footer from './components/Footer';
+import Grid from '@material-ui/core/Grid';
+import Box from '@material-ui/core/Box';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box className="app" mx="auto">
+      <NavBar />
+        <Grid container spacing={3} justify="center">
+                <LessThan1000 />
+        </Grid>
+        <Grid container spacing={3} justify="center">
+                <FilterRepeatingCharStrings />
+        </Grid>
+      <Footer />
+    </Box>
   );
 }
 
