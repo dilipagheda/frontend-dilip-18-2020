@@ -11,6 +11,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 App should run on localhost: 3000
 
+# Project features
+
+- Implemented utility functions as below
+```
+    Task 1 - Less than a 1000?
+    Task 2 - Multiple of 10
+    Task 3 - Odd number
+    Task 4 - Triangle Area
+    Task 5 - Distance Between Two Points
+    Task 6 - Filter Repeating Character Strings
+```
+- Implemented React components for above Task 1 and Task 6
+
+- Implemented unit tests in `App.test.js`
+
 # How to run unit tests
 
 run `npm run test`
