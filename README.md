@@ -26,6 +26,8 @@ App should run on localhost: 3000
 
 - Implemented unit tests in `App.test.js`
 
+- App is fully responsive for mobile, tablet and desktop
+
 # How to run unit tests
 
 run `npm run test`
